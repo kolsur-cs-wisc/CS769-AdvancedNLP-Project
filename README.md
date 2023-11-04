@@ -1,11 +1,6 @@
 # CS769 Advanced NLP Project : ViLT
 
-Code for the ICML 2021 paper: "[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334)"
-
----
-<p align="center">
-  <img align="middle" src="./assets/vilt.png" alt="The main figure"/>
-</p>
+Code for the ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision paper and CS769 Project.
 
 ## Install
 ```bash
@@ -15,7 +10,6 @@ pip install -e .
 ```
 
 ## Download Pretrained Weights
-We provide five pretrained weights
 1. ViLT-B/32 Pretrained with MLM+ITM for 200k steps on GCC+SBU+COCO+VG (ViLT-B/32 200k) [link](https://github.com/dandelin/ViLT/releases/download/200k/vilt_200k_mlm_itm.ckpt)
 2. ViLT-B/32 200k finetuned on VQAv2 [link](https://github.com/dandelin/ViLT/releases/download/200k/vilt_vqa.ckpt)
 3. ViLT-B/32 200k finetuned on NLVR2 [link](https://github.com/dandelin/ViLT/releases/download/200k/vilt_nlvr2.ckpt)
