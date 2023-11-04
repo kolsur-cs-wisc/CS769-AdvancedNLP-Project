@@ -1,5 +1,5 @@
 # Dataset Preparation
-We utilize seven datsets: COCO Captions (COCO), Natural Language for Visual Reasoning 2 (NLVR2), SLAKE, VQA-RAD
+We utilize 4 datsets: COCO Captions (COCO), Natural Language for Visual Reasoning 2 (NLVR2), SLAKE, VQA-RAD
 
 Please download the datasets by yourself.
 We use `pyarrow` to serialize the datasets, conversion scripts are located in `vilt/utils/write_*.py`.
