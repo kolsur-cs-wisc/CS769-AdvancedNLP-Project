@@ -1,7 +1,6 @@
 from .base_dataset import BaseDataset
 
-
-class VQAv2Dataset(BaseDataset):
+class SLAKEDataset(BaseDataset):
     def __init__(self, *args, split="", **kwargs):
         self.split = split
 
