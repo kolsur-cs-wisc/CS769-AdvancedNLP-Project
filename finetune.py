@@ -19,30 +19,6 @@ def create_ans2label(dataset_train, dataset_validate, dataset_test):
         ans_to_label[possible_answers[i]] = i
     return label_to_ans, ans_to_label
 
-f = open('root/train.json')
-train_questions = json.load(f)
-
-f = open('root/test.json')
-test_questions = json.load(f)
-
-f = open('root/validate.json')
-validate_questions = json.load(f)
-
-label_to_ans, ans_to_label = create_ans2label(train_questions, validate_questions, test_questions)
-
-config = ViltConfig.from_pretrained("dandelin/vilt-b32-finetuned-vqa")
-
-processor = ViltProcessor.from_pretrained("dandelin/vilt-b32-mlm")
-
-dataset = SLAKE_Dataset(data = train_questions, processor = processor, ans2label = ans_to_label, label2ans = label_to_ans)
-
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-model = ViltForQuestionAnswering.from_pretrained("dandelin/vilt-b32-mlm",
-                                                 id2label=label_to_ans,
-                                                 label2id=ans_to_label)
-model.to(device)
-
 def collate_fn(batch):
   input_ids = [item['input_ids'] for item in batch]
   pixel_values = [item['pixel_values'] for item in batch]
@@ -64,28 +40,56 @@ def collate_fn(batch):
 
   return batch
 
-train_dataloader = DataLoader(dataset, collate_fn=collate_fn, batch_size=4, shuffle=True)
-batch = next(iter(train_dataloader))
-for k,v in batch.items():
-  print(k, v.shape)
-# # labels = torch.nonzero(batch['labels'][0]).squeeze().tolist()
-# # print([config.id2label[label] for label in labels])
+f = open('root/train.json')
+train_json = json.load(f)
+
+f = open('root/test.json')
+test_json = json.load(f)
+
+f = open('root/validate.json')
+validate_json = json.load(f)
+
+label_to_ans, ans_to_label = create_ans2label(train_json, validate_json, test_json)
+
+config = ViltConfig.from_pretrained("dandelin/vilt-b32-finetuned-vqa")
+processor = ViltProcessor.from_pretrained("dandelin/vilt-b32-mlm")
+
+train_dataset = SLAKE_Dataset(data = train_json, processor = processor, ans2label = ans_to_label, label2ans = label_to_ans)
+test_dataset = SLAKE_Dataset(data = test_json, processor = processor, ans2label = ans_to_label, label2ans = label_to_ans)
+validate_dataset = SLAKE_Dataset(data = validate_json, processor = processor, ans2label = ans_to_label, label2ans = label_to_ans)
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+model = ViltForQuestionAnswering.from_pretrained("dandelin/vilt-b32-mlm", id2label=label_to_ans, label2id=ans_to_label)
+model.to(device)
+
+train_dataloader = DataLoader(train_dataset, collate_fn=collate_fn, batch_size=100, shuffle=True)
+validate_dataloader = DataLoader(validate_dataset, collate_fn=collate_fn, batch_size=len(validate_dataset), shuffle=True)
 
 optimizer = torch.optim.AdamW(model.parameters(), lr=5e-5)
 
 model.train()
-for epoch in range(50):  # loop over the dataset multiple times
-   print(f"Epoch: {epoch}")
-   for batch in tqdm(train_dataloader):
-        # get the inputs;
+for epoch in range(3):  # loop over the dataset multiple times
+    print(f"Epoch: {epoch}")
+
+    for batch in tqdm(train_dataloader):
+      batch = {k:v.to(device) for k,v in batch.items()}
+      optimizer.zero_grad()
+      
+      outputs = model(**batch)
+      loss = outputs.loss
+      print("Loss:", loss.item())
+      loss.backward()
+      optimizer.step()
+        
+    for batch in tqdm(validate_dataloader):
         batch = {k:v.to(device) for k,v in batch.items()}
 
-        # zero the parameter gradients
-        optimizer.zero_grad()
-
-        # forward + backward + optimize
         outputs = model(**batch)
-        loss = outputs.loss
-        print("Loss:", loss.item())
-        loss.backward()
-        optimizer.step()
+        logits = outputs.logits
+
+        predicted_classes = torch.sigmoid(logits)
+        probs, classes = torch.topk(predicted_classes, 1)
+
+        true_labels = batch['labels'].nonzero(as_tuple=True)
+        print(true_labels)
