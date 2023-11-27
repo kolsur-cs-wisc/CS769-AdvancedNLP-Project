@@ -1,15 +1,14 @@
+import functools
+import glob
+import json
+import os
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import os
-import glob
-import json
 import tqdm
-import functools
-
-from torch.utils.data.distributed import DistributedSampler
 from einops import rearrange
-
+from torch.utils.data.distributed import DistributedSampler
 from vilt.modules.dist_utils import all_gather
 
 
@@ -27,7 +26,7 @@ def cost_matrix_cosine(x, y, eps=1e-5):
 
 
 def trace(x):
-    """ compute trace of input tensor (batched) """
+    """compute trace of input tensor (batched)"""
     b, m, n = x.size()
     assert m == n
     mask = torch.eye(n, dtype=torch.bool, device=x.device).unsqueeze(0).expand_as(x)
@@ -37,7 +36,7 @@ def trace(x):
 
 @torch.no_grad()
 def ipot(C, x_len, x_pad, y_len, y_pad, joint_pad, beta, iteration, k):
-    """ [B, M, N], [B], [B, M], [B], [B, N], [B, M, N]"""
+    """[B, M, N], [B], [B, M], [B], [B, N], [B, M, N]"""
     b, m, n = C.size()
     sigma = torch.ones(b, m, dtype=C.dtype, device=C.device) / x_len.unsqueeze(1)
     T = torch.ones(b, n, m, dtype=C.dtype, device=C.device)
@@ -71,7 +70,7 @@ def ipot(C, x_len, x_pad, y_len, y_pad, joint_pad, beta, iteration, k):
 def optimal_transport_dist(
     txt_emb, img_emb, txt_pad, img_pad, beta=0.5, iteration=50, k=1
 ):
-    """ [B, M, D], [B, N, D], [B, M], [B, N]"""
+    """[B, M, D], [B, N, D], [B, M], [B, N]"""
     cost = cost_matrix_cosine(txt_emb, img_emb)
     # mask the padded inputs
     joint_pad = txt_pad.unsqueeze(-1) | img_pad.unsqueeze(-2)
@@ -364,8 +363,8 @@ def compute_nlvr2(pl_module, batch):
         acc = getattr(pl_module, f"{phase}_nlvr2_accuracy")(
             ret["nlvr2_logits"], ret["nlvr2_labels"]
         )
-        pl_module.log(f"nlvr2/{phase}/loss", loss)
-        pl_module.log(f"nlvr2/{phase}/accuracy", acc)
+        # pl_module.log(f"nlvr2/{phase}/loss", loss)
+        # pl_module.log(f"nlvr2/{phase}/accuracy", acc)
     else:
         dev_batches = [i for i, n in enumerate(batch["table_name"]) if "dev" in n]
         test_batches = [i for i, n in enumerate(batch["table_name"]) if "test" in n]

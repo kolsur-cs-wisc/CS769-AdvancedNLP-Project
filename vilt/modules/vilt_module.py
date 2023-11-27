@@ -1,9 +1,9 @@
+import pytorch_lightning as pl
 import torch
 import torch.nn as nn
-import pytorch_lightning as pl
-import vilt.modules.vision_transformer as vit
-
 from transformers.models.bert.modeling_bert import BertConfig, BertEmbeddings
+
+import vilt.modules.vision_transformer as vit
 from vilt.modules import heads, objectives, vilt_utils
 
 
@@ -11,7 +11,6 @@ class ViLTransformerSS(pl.LightningModule):
     def __init__(self, config):
         super().__init__()
         self.save_hyperparameters()
-
         bert_config = BertConfig(
             vocab_size=config["vocab_size"],
             hidden_size=config["hidden_size"],
@@ -74,12 +73,56 @@ class ViLTransformerSS(pl.LightningModule):
             )
             self.vqa_classifier.apply(objectives.init_weights)
 
+            # orig
+            # if self.hparams.config["loss_names"]["nlvr2"] > 0:
+            #     self.nlvr2_classifier = nn.Sequential(
+            #         nn.Linear(hs * 2, hs * 2),
+            #         nn.LayerNorm(hs * 2),
+            #         nn.GELU(),
+            #         nn.Linear(hs * 2, 2),
+            #     )
+
+            # # v2
+            # if self.hparams.config["loss_names"]["nlvr2"] > 0:
+            #     self.nlvr2_classifier = nn.Sequential(
+            #         nn.Linear(hs * 2, hs * 3),
+            #         nn.LayerNorm(hs * 3),
+            #         nn.GELU(),
+            #         nn.Linear(hs * 3, hs * 3),
+            #         nn.LayerNorm(hs * 3),
+            #         nn.GELU(),
+            #         nn.Linear(hs * 3, 2),
+            #     )
+            #  v3
+            # if self.hparams.config["loss_names"]["nlvr2"] > 0:
+            #     self.nlvr2_classifier = nn.Sequential(
+            #         nn.Linear(hs * 2, hs * 3),
+            #         nn.LayerNorm(hs * 3),
+            #         nn.GELU(),
+            #         nn.Linear(hs * 3, hs * 3),
+            #         nn.LayerNorm(hs * 3),
+            #         nn.GELU(),
+            #         nn.Linear(hs * 3, hs * 3),
+            #         nn.LayerNorm(hs * 3),
+            #         nn.GELU(),
+            #         nn.Linear(hs * 3, 2),
+            #     )
+            # v1
         if self.hparams.config["loss_names"]["nlvr2"] > 0:
             self.nlvr2_classifier = nn.Sequential(
-                nn.Linear(hs * 2, hs * 2),
-                nn.LayerNorm(hs * 2),
+                nn.Linear(hs * 2, hs * 3),
+                nn.LayerNorm(hs * 3),
                 nn.GELU(),
-                nn.Linear(hs * 2, 2),
+                nn.Linear(hs * 3, hs * 3),
+                nn.LayerNorm(hs * 3),
+                nn.GELU(),
+                nn.Linear(hs * 3, hs * 3),
+                nn.LayerNorm(hs * 3),
+                nn.GELU(),
+                nn.Linear(hs * 3, hs * 3),
+                nn.LayerNorm(hs * 3),
+                nn.GELU(),
+                nn.Linear(hs * 3, 2),
             )
             self.nlvr2_classifier.apply(objectives.init_weights)
             emb_data = self.token_type_embeddings.weight.data

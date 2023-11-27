@@ -1,10 +1,10 @@
 import json
+import os
+from collections import defaultdict
+
 import pandas as pd
 import pyarrow as pa
-import os
-
 from tqdm import tqdm
-from collections import defaultdict
 
 
 def process(root, iden, row):
@@ -96,8 +96,10 @@ def make_arrow(root, dataset_root):
         ]
 
         dataframe = pd.DataFrame(
-            bs, columns=["image_0", "image_1", "questions", "answers", "identifier"],
+            bs,
+            columns=["image_0", "image_1", "questions", "answers", "identifier"],
         )
+        dataframe = dataframe.dropna()
 
         table = pa.Table.from_pandas(dataframe)
 
