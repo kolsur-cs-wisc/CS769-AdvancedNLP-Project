@@ -1,0 +1,129 @@
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - ViLT - No observers have been added to this run
+INFO - ViLT - Running command 'main'
+INFO - ViLT - Started
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+GPU available: True, used: True
+INFO - lightning - GPU available: True, used: True
+TPU available: None, using: 0 TPU cores
+INFO - lightning - TPU available: None, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+INFO - lightning - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - ViLT - No observers have been added to this run
+INFO - ViLT - Running command 'main'
+INFO - ViLT - Started
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - ViLT - No observers have been added to this run
+INFO - ViLT - Running command 'main'
+INFO - ViLT - Started
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+INFO - lightning - LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+initializing ddp: GLOBAL_RANK: 1, MEMBER: 2/8
+INFO - lightning - initializing ddp: GLOBAL_RANK: 1, MEMBER: 2/8
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+INFO - lightning - LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+initializing ddp: GLOBAL_RANK: 2, MEMBER: 3/8
+INFO - lightning - initializing ddp: GLOBAL_RANK: 2, MEMBER: 3/8
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - ViLT - No observers have been added to this run
+INFO - ViLT - Running command 'main'
+INFO - ViLT - Started
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - ViLT - No observers have been added to this run
+INFO - ViLT - Running command 'main'
+INFO - ViLT - Started
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+INFO - lightning - LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+initializing ddp: GLOBAL_RANK: 3, MEMBER: 4/8
+INFO - lightning - initializing ddp: GLOBAL_RANK: 3, MEMBER: 4/8
+LOCAL_RANK: 4 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+INFO - lightning - LOCAL_RANK: 4 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+initializing ddp: GLOBAL_RANK: 4, MEMBER: 5/8
+INFO - lightning - initializing ddp: GLOBAL_RANK: 4, MEMBER: 5/8
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - ViLT - No observers have been added to this run
+INFO - ViLT - Running command 'main'
+INFO - ViLT - Started
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - ViLT - No observers have been added to this run
+INFO - ViLT - Running command 'main'
+INFO - ViLT - Started
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+LOCAL_RANK: 5 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+INFO - lightning - LOCAL_RANK: 5 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+initializing ddp: GLOBAL_RANK: 5, MEMBER: 6/8
+INFO - lightning - initializing ddp: GLOBAL_RANK: 5, MEMBER: 6/8
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+initializing ddp: GLOBAL_RANK: 0, MEMBER: 1/8
+INFO - lightning - initializing ddp: GLOBAL_RANK: 0, MEMBER: 1/8
+INFO - root - Added key: store_based_barrier_key:1 to store for rank: 3
+INFO - root - Added key: store_based_barrier_key:1 to store for rank: 2
+INFO - root - Added key: store_based_barrier_key:1 to store for rank: 1
+INFO - root - Added key: store_based_barrier_key:1 to store for rank: 5
+INFO - root - Added key: store_based_barrier_key:1 to store for rank: 4
+LOCAL_RANK: 6 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+INFO - lightning - LOCAL_RANK: 6 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+initializing ddp: GLOBAL_RANK: 6, MEMBER: 7/8
+INFO - lightning - initializing ddp: GLOBAL_RANK: 6, MEMBER: 7/8
+INFO - root - Added key: store_based_barrier_key:1 to store for rank: 6
+WARNING - root - Changed type of config entry "max_steps" from int to NoneType
+WARNING - ViLT - No observers have been added to this run
+INFO - ViLT - Running command 'main'
+INFO - ViLT - Started
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+LOCAL_RANK: 7 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+INFO - lightning - LOCAL_RANK: 7 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+Global seed set to 0
+INFO - lightning - Global seed set to 0
+initializing ddp: GLOBAL_RANK: 7, MEMBER: 8/8
+INFO - lightning - initializing ddp: GLOBAL_RANK: 7, MEMBER: 8/8
+INFO - root - Added key: store_based_barrier_key:1 to store for rank: 7
+INFO - root - Added key: store_based_barrier_key:1 to store for rank: 0
+Testing: 0it [00:00, ?it/s]Testing:   1%|          | 1/109 [00:30<54:18, 30.17s/it]Testing:   2%|▏         | 2/109 [00:30<22:27, 12.59s/it]Testing:   3%|▎         | 3/109 [00:30<12:18,  6.96s/it]Testing:   4%|▎         | 4/109 [00:31<07:35,  4.34s/it]Testing:   5%|▍         | 5/109 [00:31<04:57,  2.86s/it]Testing:   6%|▌         | 6/109 [00:31<03:24,  1.99s/it]Testing:   6%|▋         | 7/109 [00:31<02:24,  1.42s/it]Testing:   7%|▋         | 8/109 [00:32<01:45,  1.05s/it]Testing:   8%|▊         | 9/109 [00:32<01:38,  1.01it/s]Testing:   9%|▉         | 10/109 [00:33<01:39,  1.00s/it]Testing:  10%|█         | 11/109 [00:34<01:18,  1.25it/s]Testing:  11%|█         | 12/109 [00:34<01:01,  1.57it/s]Testing:  12%|█▏        | 13/109 [00:34<00:52,  1.83it/s]Testing:  13%|█▎        | 14/109 [00:37<01:57,  1.24s/it]Testing:  14%|█▍        | 15/109 [00:38<01:28,  1.06it/s]Testing:  15%|█▍        | 16/109 [00:38<01:09,  1.34it/s]Testing:  16%|█▌        | 17/109 [00:38<01:00,  1.53it/s]Testing:  17%|█▋        | 18/109 [00:39<00:59,  1.53it/s]Testing:  17%|█▋        | 19/109 [00:40<01:17,  1.16it/s]Testing:  18%|█▊        | 20/109 [00:42<01:51,  1.26s/it]Testing:  19%|█▉        | 21/109 [00:43<01:24,  1.04it/s]Testing:  20%|██        | 22/109 [00:43<01:04,  1.34it/s]Testing:  21%|██        | 23/109 [00:44<01:05,  1.32it/s]Testing:  22%|██▏       | 24/109 [00:44<00:53,  1.60it/s]Testing:  23%|██▎       | 25/109 [00:45<00:56,  1.50it/s]Testing:  24%|██▍       | 26/109 [00:45<00:45,  1.83it/s]Testing:  25%|██▍       | 27/109 [00:47<01:08,  1.20it/s]Testing:  26%|██▌       | 28/109 [00:48<01:22,  1.01s/it]Testing:  27%|██▋       | 29/109 [00:51<02:07,  1.59s/it]Testing:  28%|██▊       | 30/109 [00:51<01:35,  1.20s/it]Testing:  28%|██▊       | 31/109 [00:54<02:18,  1.77s/it]Testing:  29%|██▉       | 32/109 [00:55<01:41,  1.32s/it]Testing:  30%|███       | 33/109 [00:55<01:16,  1.01s/it]Testing:  31%|███       | 34/109 [00:55<00:58,  1.28it/s]Testing:  32%|███▏      | 35/109 [00:56<00:51,  1.42it/s]Testing:  33%|███▎      | 36/109 [00:57<01:13,  1.00s/it]Testing:  34%|███▍      | 37/109 [01:00<01:41,  1.41s/it]Testing:  35%|███▍      | 38/109 [01:00<01:15,  1.06s/it]Testing:  36%|███▌      | 39/109 [01:01<01:16,  1.09s/it]Testing:  37%|███▋      | 40/109 [01:01<00:57,  1.19it/s]Testing:  38%|███▊      | 41/109 [01:03<01:15,  1.11s/it]Testing:  39%|███▊      | 42/109 [01:03<00:57,  1.16it/s]Testing:  39%|███▉      | 43/109 [01:04<01:00,  1.09it/s]Testing:  40%|████      | 44/109 [01:05<00:53,  1.22it/s]Testing:  41%|████▏     | 45/109 [01:08<01:30,  1.42s/it]Testing:  42%|████▏     | 46/109 [01:08<01:08,  1.08s/it]Testing:  43%|████▎     | 47/109 [01:08<00:51,  1.20it/s]Testing:  44%|████▍     | 48/109 [01:09<00:40,  1.51it/s]Testing:  45%|████▍     | 49/109 [01:09<00:34,  1.73it/s]Testing:  46%|████▌     | 50/109 [01:09<00:28,  2.07it/s]Testing:  47%|████▋     | 51/109 [01:10<00:31,  1.84it/s]Testing:  48%|████▊     | 52/109 [01:10<00:29,  1.92it/s]Testing:  49%|████▊     | 53/109 [01:13<00:59,  1.05s/it]Testing:  50%|████▉     | 54/109 [01:13<00:45,  1.22it/s]Testing:  50%|█████     | 55/109 [01:15<00:58,  1.08s/it]Testing:  51%|█████▏    | 56/109 [01:15<00:44,  1.20it/s]Testing:  52%|█████▏    | 57/109 [01:17<00:54,  1.05s/it]Testing:  53%|█████▎    | 58/109 [01:17<00:41,  1.23it/s]Testing:  54%|█████▍    | 59/109 [01:18<00:42,  1.17it/s]Testing:  55%|█████▌    | 60/109 [01:22<01:25,  1.74s/it]Testing:  56%|█████▌    | 61/109 [01:22<01:02,  1.30s/it]Testing:  57%|█████▋    | 62/109 [01:22<00:46,  1.00it/s]Testing:  58%|█████▊    | 63/109 [01:22<00:35,  1.29it/s]Testing:  59%|█████▊    | 64/109 [01:24<00:48,  1.07s/it]Testing:  60%|█████▉    | 65/109 [01:24<00:36,  1.20it/s]Testing:  61%|██████    | 66/109 [01:25<00:28,  1.50it/s]Testing:  61%|██████▏   | 67/109 [01:25<00:22,  1.83it/s]Testing:  62%|██████▏   | 68/109 [01:29<01:00,  1.48s/it]Testing:  63%|██████▎   | 69/109 [01:29<00:44,  1.12s/it]Testing:  64%|██████▍   | 70/109 [01:29<00:33,  1.16it/s]Testing:  65%|██████▌   | 71/109 [01:29<00:26,  1.46it/s]Testing:  66%|██████▌   | 72/109 [01:31<00:35,  1.05it/s]Testing:  67%|██████▋   | 73/109 [01:31<00:27,  1.33it/s]Testing:  68%|██████▊   | 74/109 [01:32<00:21,  1.65it/s]Testing:  69%|██████▉   | 75/109 [01:36<01:00,  1.77s/it]Testing:  70%|██████▉   | 76/109 [01:36<00:43,  1.32s/it]Testing:  71%|███████   | 77/109 [01:37<00:31,  1.00it/s]Testing:  72%|███████▏  | 78/109 [01:37<00:24,  1.28it/s]Testing:  72%|███████▏  | 79/109 [01:37<00:18,  1.60it/s]Testing:  73%|███████▎  | 80/109 [01:39<00:26,  1.08it/s]Testing:  74%|███████▍  | 81/109 [01:39<00:20,  1.38it/s]Testing:  75%|███████▌  | 82/109 [01:39<00:15,  1.71it/s]Testing:  76%|███████▌  | 83/109 [01:40<00:16,  1.54it/s]Testing:  77%|███████▋  | 84/109 [01:43<00:31,  1.25s/it]Testing:  78%|███████▊  | 85/109 [01:43<00:22,  1.04it/s]Testing:  79%|███████▉  | 86/109 [01:43<00:17,  1.33it/s]Testing:  80%|███████▉  | 87/109 [01:44<00:13,  1.62it/s]Testing:  81%|████████  | 88/109 [01:47<00:30,  1.47s/it]Testing:  82%|████████▏ | 89/109 [01:47<00:22,  1.11s/it]Testing:  83%|████████▎ | 90/109 [01:48<00:16,  1.17it/s]Testing:  83%|████████▎ | 91/109 [01:49<00:18,  1.03s/it]Testing:  84%|████████▍ | 92/109 [01:51<00:21,  1.24s/it]Testing:  85%|████████▌ | 93/109 [01:52<00:19,  1.19s/it]Testing:  86%|████████▌ | 94/109 [01:52<00:13,  1.10it/s]Testing:  87%|████████▋ | 95/109 [01:53<00:13,  1.00it/s]Testing:  88%|████████▊ | 96/109 [01:54<00:11,  1.15it/s]Testing:  89%|████████▉ | 97/109 [01:54<00:08,  1.47it/s]Testing:  90%|████████▉ | 98/109 [01:55<00:09,  1.19it/s]Testing:  91%|█████████ | 99/109 [01:56<00:07,  1.29it/s]Testing:  92%|█████████▏| 100/109 [01:58<00:09,  1.07s/it]Testing:  93%|█████████▎| 101/109 [01:58<00:06,  1.21it/s]Testing:  94%|█████████▎| 102/109 [01:59<00:06,  1.15it/s]Testing:  94%|█████████▍| 103/109 [01:59<00:04,  1.45it/s]Testing:  95%|█████████▌| 104/109 [02:00<00:03,  1.53it/s]Testing:  96%|█████████▋| 105/109 [02:00<00:02,  1.88it/s]Testing:  97%|█████████▋| 106/109 [02:00<00:01,  2.25it/s]Testing:  98%|█████████▊| 107/109 [02:01<00:01,  1.97it/s]Testing:  99%|█████████▉| 108/109 [02:02<00:00,  1.55it/s]Testing: 100%|██████████| 109/109 [02:02<00:00,  1.88it/s]Testing: 100%|██████████| 109/109 [02:02<00:00,  1.13s/it]INFO - ViLT - Completed after 0:03:52
+INFO - ViLT - Completed after 0:03:42
+INFO - ViLT - Completed after 0:03:59
+INFO - ViLT - Completed after 0:03:55
+INFO - ViLT - Completed after 0:03:46
+INFO - ViLT - Completed after 0:04:02
+INFO - ViLT - Completed after 0:05:42
+
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'nlvr2/dev/accuracy': tensor(0.7306, device='cuda:0'),
+ 'nlvr2/dev/accuracy_epoch': tensor(0.7522, device='cuda:0'),
+ 'nlvr2/dev/loss': tensor(0.8870, device='cuda:0'),
+ 'nlvr2/dev/loss_epoch': tensor(0.8827, device='cuda:0'),
+ 'nlvr2/test/accuracy': tensor(0.7649, device='cuda:0'),
+ 'nlvr2/test/accuracy_epoch': tensor(0.7546, device='cuda:0'),
+ 'nlvr2/test/loss': tensor(0.8148, device='cuda:0'),
+ 'nlvr2/test/loss_epoch': tensor(0.8637, device='cuda:0'),
+ 'val/the_metric': tensor(0.7546, device='cuda:0')}
+--------------------------------------------------------------------------------
+INFO - ViLT - Completed after 0:03:48

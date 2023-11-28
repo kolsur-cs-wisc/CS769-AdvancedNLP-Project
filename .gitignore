@@ -8,8 +8,7 @@ dropbox_uploader.sh
 .dfc/
 *.egg-info
 dvd/datamodules/urls.py
-result*
-nohup*
+result
 weights/
 scripts/
 demos/
