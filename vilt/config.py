@@ -49,6 +49,8 @@ def config():
     num_layers = 12
     mlp_ratio = 4
     drop_rate = 0.1
+    adapter = False
+    reduction = 1
 
     # Optimizer Setting
     optim_type = "adamw"
