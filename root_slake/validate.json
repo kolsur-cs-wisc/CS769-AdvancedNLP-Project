@@ -1,0 +1,7598 @@
+[
+  {
+    "img_id": 0,
+    "img_name": "xmlab0/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9838,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 0,
+    "img_name": "xmlab0/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9840
+  },
+  {
+    "img_id": 0,
+    "img_name": "xmlab0/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9841
+  },
+  {
+    "img_id": 0,
+    "img_name": "xmlab0/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9842
+  },
+  {
+    "img_id": 10,
+    "img_name": "xmlab10/source.jpg",
+    "question": "Are/Is the kidney normal in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9849
+  },
+  {
+    "img_id": 10,
+    "img_name": "xmlab10/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9850
+  },
+  {
+    "img_id": 10,
+    "img_name": "xmlab10/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9851
+  },
+  {
+    "img_id": 10,
+    "img_name": "xmlab10/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9852
+  },
+  {
+    "img_id": 106,
+    "img_name": "xmlab106/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9857
+  },
+  {
+    "img_id": 106,
+    "img_name": "xmlab106/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9858
+  },
+  {
+    "img_id": 106,
+    "img_name": "xmlab106/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9859
+  },
+  {
+    "img_id": 106,
+    "img_name": "xmlab106/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9861
+  },
+  {
+    "img_id": 112,
+    "img_name": "xmlab112/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9867,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 112,
+    "img_name": "xmlab112/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9868,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 112,
+    "img_name": "xmlab112/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9870
+  },
+  {
+    "img_id": 112,
+    "img_name": "xmlab112/source.jpg",
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "answer": "Lung",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9872
+  },
+  {
+    "img_id": 119,
+    "img_name": "xmlab119/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9877,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 119,
+    "img_name": "xmlab119/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9878,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 119,
+    "img_name": "xmlab119/source.jpg",
+    "question": "Does the lung look healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9880
+  },
+  {
+    "img_id": 119,
+    "img_name": "xmlab119/source.jpg",
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "answer": "Lung",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9882
+  },
+  {
+    "img_id": 121,
+    "img_name": "xmlab121/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9885,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 121,
+    "img_name": "xmlab121/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9889,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 127,
+    "img_name": "xmlab127/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9892,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 127,
+    "img_name": "xmlab127/source.jpg",
+    "question": "Does the lung look unhealthy?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9896
+  },
+  {
+    "img_id": 128,
+    "img_name": "xmlab128/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9902,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 128,
+    "img_name": "xmlab128/source.jpg",
+    "question": "Does the lung look unhealthy?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9903
+  },
+  {
+    "img_id": 129,
+    "img_name": "xmlab129/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9906,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 129,
+    "img_name": "xmlab129/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9910,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 139,
+    "img_name": "xmlab139/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9916,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 139,
+    "img_name": "xmlab139/source.jpg",
+    "question": "Does the lung look healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9917
+  },
+  {
+    "img_id": 139,
+    "img_name": "xmlab139/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Lung",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9918
+  },
+  {
+    "img_id": 164,
+    "img_name": "xmlab164/source.jpg",
+    "question": "Does this image look abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9921
+  },
+  {
+    "img_id": 164,
+    "img_name": "xmlab164/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Heart",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9925
+  },
+  {
+    "img_id": 170,
+    "img_name": "xmlab170/source.jpg",
+    "question": "Does this image look abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9928
+  },
+  {
+    "img_id": 170,
+    "img_name": "xmlab170/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9932,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 170,
+    "img_name": "xmlab170/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9933,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 170,
+    "img_name": "xmlab170/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Lung",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9934
+  },
+  {
+    "img_id": 191,
+    "img_name": "xmlab191/source.jpg",
+    "question": "Does this image look abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9937
+  },
+  {
+    "img_id": 191,
+    "img_name": "xmlab191/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9941,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 191,
+    "img_name": "xmlab191/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Heart",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9942
+  },
+  {
+    "img_id": 196,
+    "img_name": "xmlab196/source.jpg",
+    "question": "Does this image look abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9945
+  },
+  {
+    "img_id": 196,
+    "img_name": "xmlab196/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9949,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 196,
+    "img_name": "xmlab196/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Heart",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9950
+  },
+  {
+    "img_id": 207,
+    "img_name": "xmlab207/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9953,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 207,
+    "img_name": "xmlab207/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9954,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 207,
+    "img_name": "xmlab207/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9955,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 207,
+    "img_name": "xmlab207/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9956,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 207,
+    "img_name": "xmlab207/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9957,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 207,
+    "img_name": "xmlab207/source.jpg",
+    "question": "Which is bigger in this image, kidney or liver?",
+    "answer": "Kidney",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9960
+  },
+  {
+    "img_id": 21,
+    "img_name": "xmlab21/source.jpg",
+    "question": "Which is bigger, left kidney or spleen ?",
+    "answer": "Left Kidney",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9968
+  },
+  {
+    "img_id": 21,
+    "img_name": "xmlab21/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9969,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 21,
+    "img_name": "xmlab21/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9970,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 21,
+    "img_name": "xmlab21/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9971,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 213,
+    "img_name": "xmlab213/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9976,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 213,
+    "img_name": "xmlab213/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9977,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 213,
+    "img_name": "xmlab213/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9978,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 213,
+    "img_name": "xmlab213/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9979,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 213,
+    "img_name": "xmlab213/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9980,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 22,
+    "img_name": "xmlab22/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9989,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 22,
+    "img_name": "xmlab22/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9990,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 22,
+    "img_name": "xmlab22/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9991,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 22,
+    "img_name": "xmlab22/source.jpg",
+    "question": "Which is bigger, liver or spleen?",
+    "answer": "Liver",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9992
+  },
+  {
+    "img_id": 22,
+    "img_name": "xmlab22/source.jpg",
+    "question": "Does the liver look normal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9993
+  },
+  {
+    "img_id": 22,
+    "img_name": "xmlab22/source.jpg",
+    "question": "Does the spleen look normal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9994
+  },
+  {
+    "img_id": 228,
+    "img_name": "xmlab228/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9997,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 228,
+    "img_name": "xmlab228/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9998,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 228,
+    "img_name": "xmlab228/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 9999,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 228,
+    "img_name": "xmlab228/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10000,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 228,
+    "img_name": "xmlab228/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10001,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 228,
+    "img_name": "xmlab228/source.jpg",
+    "question": "Which is bigger in this image, right kidney or liver?",
+    "answer": "Liver",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10004
+  },
+  {
+    "img_id": 229,
+    "img_name": "xmlab229/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10012,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 229,
+    "img_name": "xmlab229/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10013,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 229,
+    "img_name": "xmlab229/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10014,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 229,
+    "img_name": "xmlab229/source.jpg",
+    "question": "Is the liver healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10019
+  },
+  {
+    "img_id": 229,
+    "img_name": "xmlab229/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10021
+  },
+  {
+    "img_id": 229,
+    "img_name": "xmlab229/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10022,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 229,
+    "img_name": "xmlab229/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10023,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 229,
+    "img_name": "xmlab229/source.jpg",
+    "question": "Which is bigger in this image, kidney or liver?",
+    "answer": "Liver",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10024
+  },
+  {
+    "img_id": 238,
+    "img_name": "xmlab238/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10030
+  },
+  {
+    "img_id": 238,
+    "img_name": "xmlab238/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10032,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 238,
+    "img_name": "xmlab238/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10033,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 238,
+    "img_name": "xmlab238/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10034,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 238,
+    "img_name": "xmlab238/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10035,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 238,
+    "img_name": "xmlab238/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10036,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 238,
+    "img_name": "xmlab238/source.jpg",
+    "question": "Which is bigger in this image, liver or heart?",
+    "answer": "Heart",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10038
+  },
+  {
+    "img_id": 245,
+    "img_name": "xmlab245/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_heart",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10047,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 245,
+    "img_name": "xmlab245/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_heart",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10048,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 245,
+    "img_name": "xmlab245/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_heart",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10049,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 245,
+    "img_name": "xmlab245/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Chest_heart",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10050,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 245,
+    "img_name": "xmlab245/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Chest_heart",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10051,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 257,
+    "img_name": "xmlab257/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10059,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 257,
+    "img_name": "xmlab257/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10060,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 257,
+    "img_name": "xmlab257/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10061,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 257,
+    "img_name": "xmlab257/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10062,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 257,
+    "img_name": "xmlab257/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10063,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 257,
+    "img_name": "xmlab257/source.jpg",
+    "question": "Which is bigger in this image, heart or lung?",
+    "answer": "Lung",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10064
+  },
+  {
+    "img_id": 258,
+    "img_name": "xmlab258/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10072
+  },
+  {
+    "img_id": 258,
+    "img_name": "xmlab258/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10074,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 258,
+    "img_name": "xmlab258/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10075,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 258,
+    "img_name": "xmlab258/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10076,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 258,
+    "img_name": "xmlab258/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10077,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 258,
+    "img_name": "xmlab258/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10078,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 258,
+    "img_name": "xmlab258/source.jpg",
+    "question": "Which is bigger in this image, liver or heart ?",
+    "answer": "Heart",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10080
+  },
+  {
+    "img_id": 263,
+    "img_name": "xmlab263/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10088,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 263,
+    "img_name": "xmlab263/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10089,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 263,
+    "img_name": "xmlab263/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10090,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 263,
+    "img_name": "xmlab263/source.jpg",
+    "question": "Which is bigger in this image, liver or kidney?",
+    "answer": "Kidney",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10093
+  },
+  {
+    "img_id": 270,
+    "img_name": "xmlab270/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10101
+  },
+  {
+    "img_id": 270,
+    "img_name": "xmlab270/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10103,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 270,
+    "img_name": "xmlab270/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10104,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 270,
+    "img_name": "xmlab270/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10105,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 270,
+    "img_name": "xmlab270/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10106,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 270,
+    "img_name": "xmlab270/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10107,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 270,
+    "img_name": "xmlab270/source.jpg",
+    "question": "Which is bigger in this image, liver or lung?",
+    "answer": "Liver",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10112
+  },
+  {
+    "img_id": 285,
+    "img_name": "xmlab285/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10118
+  },
+  {
+    "img_id": 285,
+    "img_name": "xmlab285/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10120,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 285,
+    "img_name": "xmlab285/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10121,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 285,
+    "img_name": "xmlab285/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10122,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 285,
+    "img_name": "xmlab285/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10123,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 285,
+    "img_name": "xmlab285/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10124,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 285,
+    "img_name": "xmlab285/source.jpg",
+    "question": "Which is bigger in this image, spleen or liver?",
+    "answer": "Liver",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10126
+  },
+  {
+    "img_id": 291,
+    "img_name": "xmlab291/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10132,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 291,
+    "img_name": "xmlab291/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10133,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 291,
+    "img_name": "xmlab291/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10134,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 303,
+    "img_name": "xmlab303/source.jpg",
+    "question": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
+    "answer": "X-Ray",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10141
+  },
+  {
+    "img_id": 303,
+    "img_name": "xmlab303/source.jpg",
+    "question": "Do the organs in the image exist in the chest?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10143
+  },
+  {
+    "img_id": 303,
+    "img_name": "xmlab303/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10146
+  },
+  {
+    "img_id": 303,
+    "img_name": "xmlab303/source.jpg",
+    "question": "Does the lung look abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10149
+  },
+  {
+    "img_id": 303,
+    "img_name": "xmlab303/source.jpg",
+    "question": "Can pleural infiltration be observed on the lower right lung in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10150
+  },
+  {
+    "img_id": 307,
+    "img_name": "xmlab307/source.jpg",
+    "question": "Is this an MRI?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10156
+  },
+  {
+    "img_id": 307,
+    "img_name": "xmlab307/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10162
+  },
+  {
+    "img_id": 307,
+    "img_name": "xmlab307/source.jpg",
+    "question": "Is the lung normal appearing?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10163
+  },
+  {
+    "img_id": 307,
+    "img_name": "xmlab307/source.jpg",
+    "question": "Does the lung look abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10164
+  },
+  {
+    "img_id": 307,
+    "img_name": "xmlab307/source.jpg",
+    "question": "Can atelectasis be observed on the lower left lung in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10165
+  },
+  {
+    "img_id": 309,
+    "img_name": "xmlab309/source.jpg",
+    "question": "Is this image taken via X-Ray?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10171
+  },
+  {
+    "img_id": 309,
+    "img_name": "xmlab309/source.jpg",
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "answer": "Right",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10174
+  },
+  {
+    "img_id": 309,
+    "img_name": "xmlab309/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10176
+  },
+  {
+    "img_id": 309,
+    "img_name": "xmlab309/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10177
+  },
+  {
+    "img_id": 309,
+    "img_name": "xmlab309/source.jpg",
+    "question": "Is this image normal?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10178
+  },
+  {
+    "img_id": 309,
+    "img_name": "xmlab309/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10179
+  },
+  {
+    "img_id": 309,
+    "img_name": "xmlab309/source.jpg",
+    "question": "Can infiltration be observed on the right lung in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10180
+  },
+  {
+    "img_id": 322,
+    "img_name": "xmlab322/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10193
+  },
+  {
+    "img_id": 322,
+    "img_name": "xmlab322/source.jpg",
+    "question": "Can pleural effusion be observed on the upper right chest in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10195
+  },
+  {
+    "img_id": 324,
+    "img_name": "xmlab324/source.jpg",
+    "question": "Is this a X-Ray?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10201
+  },
+  {
+    "img_id": 324,
+    "img_name": "xmlab324/source.jpg",
+    "question": "Does the lung look abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10209
+  },
+  {
+    "img_id": 324,
+    "img_name": "xmlab324/source.jpg",
+    "question": "Can mass be observed on the left lung in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10210
+  },
+  {
+    "img_id": 330,
+    "img_name": "xmlab330/source.jpg",
+    "question": "Is this image taken via X-Ray?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10216
+  },
+  {
+    "img_id": 330,
+    "img_name": "xmlab330/source.jpg",
+    "question": "Is this a coronal plane?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10217
+  },
+  {
+    "img_id": 330,
+    "img_name": "xmlab330/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10223
+  },
+  {
+    "img_id": 330,
+    "img_name": "xmlab330/source.jpg",
+    "question": "Can mass be observed on the lower right lung in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10225
+  },
+  {
+    "img_id": 34,
+    "img_name": "xmlab34/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10234,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 34,
+    "img_name": "xmlab34/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10235,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 34,
+    "img_name": "xmlab34/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10236,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 347,
+    "img_name": "xmlab347/source.jpg",
+    "question": "Does the patient have any abnormalities?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10245
+  },
+  {
+    "img_id": 347,
+    "img_name": "xmlab347/source.jpg",
+    "question": "Can cardiomegaly be observed in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10247
+  },
+  {
+    "img_id": 348,
+    "img_name": "xmlab348/source.jpg",
+    "question": "Is this image taken via CT?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10253
+  },
+  {
+    "img_id": 348,
+    "img_name": "xmlab348/source.jpg",
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "answer": "Left",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10256
+  },
+  {
+    "img_id": 348,
+    "img_name": "xmlab348/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10258
+  },
+  {
+    "img_id": 348,
+    "img_name": "xmlab348/source.jpg",
+    "question": "Is the lung normal appearing?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10260
+  },
+  {
+    "img_id": 348,
+    "img_name": "xmlab348/source.jpg",
+    "question": "Is this image normal?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10261
+  },
+  {
+    "img_id": 348,
+    "img_name": "xmlab348/source.jpg",
+    "question": "Can pneumonia be observed on the lower right lung in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10262
+  },
+  {
+    "img_id": 349,
+    "img_name": "xmlab349/source.jpg",
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "answer": "Right",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10271
+  },
+  {
+    "img_id": 349,
+    "img_name": "xmlab349/source.jpg",
+    "question": "Is the lung normal appearing?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10275
+  },
+  {
+    "img_id": 349,
+    "img_name": "xmlab349/source.jpg",
+    "question": "Is/Are there abnormalities in the patient's right lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10276
+  },
+  {
+    "img_id": 349,
+    "img_name": "xmlab349/source.jpg",
+    "question": "Can pneumonia be observed on the lower right lung in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10277
+  },
+  {
+    "img_id": 351,
+    "img_name": "xmlab351/source.jpg",
+    "question": "Is this a X-Ray?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10283
+  },
+  {
+    "img_id": 351,
+    "img_name": "xmlab351/source.jpg",
+    "question": "Is the lung abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10290
+  },
+  {
+    "img_id": 351,
+    "img_name": "xmlab351/source.jpg",
+    "question": "Can cardiomegaly be observed in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10292
+  },
+  {
+    "img_id": 353,
+    "img_name": "xmlab353/source.jpg",
+    "question": "Does the patient have any abnormalities?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10305
+  },
+  {
+    "img_id": 353,
+    "img_name": "xmlab353/source.jpg",
+    "question": "Can pneumonia be observed on the left lung in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10307
+  },
+  {
+    "img_id": 359,
+    "img_name": "xmlab359/source.jpg",
+    "question": "Is this image taken via CT?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10313
+  },
+  {
+    "img_id": 359,
+    "img_name": "xmlab359/source.jpg",
+    "question": "Is this a transverse plane?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10314
+  },
+  {
+    "img_id": 359,
+    "img_name": "xmlab359/source.jpg",
+    "question": "Does the lung look abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10321
+  },
+  {
+    "img_id": 359,
+    "img_name": "xmlab359/source.jpg",
+    "question": "Can mass be observed on the lower right lung in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10322
+  },
+  {
+    "img_id": 360,
+    "img_name": "xmlab360/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Coronal Plane",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10329
+  },
+  {
+    "img_id": 360,
+    "img_name": "xmlab360/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10335
+  },
+  {
+    "img_id": 360,
+    "img_name": "xmlab360/source.jpg",
+    "question": "Is this image normal?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10336
+  },
+  {
+    "img_id": 360,
+    "img_name": "xmlab360/source.jpg",
+    "question": "Can pneumonia be observed on the lower left lung in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10337
+  },
+  {
+    "img_id": 366,
+    "img_name": "xmlab366/source.jpg",
+    "question": "Is this a transverse section?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10344
+  },
+  {
+    "img_id": 366,
+    "img_name": "xmlab366/source.jpg",
+    "question": "Do the organs in the image exist in the abdomen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10345
+  },
+  {
+    "img_id": 366,
+    "img_name": "xmlab366/source.jpg",
+    "question": "Is the lung abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10351
+  },
+  {
+    "img_id": 366,
+    "img_name": "xmlab366/source.jpg",
+    "question": "Can pneumonia be observed on the upper right lung in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10352
+  },
+  {
+    "img_id": 379,
+    "img_name": "xmlab379/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10364
+  },
+  {
+    "img_id": 379,
+    "img_name": "xmlab379/source.jpg",
+    "question": "Is the lung normal appearing?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10365
+  },
+  {
+    "img_id": 379,
+    "img_name": "xmlab379/source.jpg",
+    "question": "Can atelectasis be observed on the lower right lung in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10367
+  },
+  {
+    "img_id": 380,
+    "img_name": "xmlab380/source.jpg",
+    "question": "Is this an MRI scan?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10373
+  },
+  {
+    "img_id": 380,
+    "img_name": "xmlab380/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10378
+  },
+  {
+    "img_id": 380,
+    "img_name": "xmlab380/source.jpg",
+    "question": "Does the lung look abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10381
+  },
+  {
+    "img_id": 380,
+    "img_name": "xmlab380/source.jpg",
+    "question": "Can atelectasis be observed on the upper left lung in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10382
+  },
+  {
+    "img_id": 383,
+    "img_name": "xmlab383/source.jpg",
+    "question": "Is this a coronal plane?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10389
+  },
+  {
+    "img_id": 383,
+    "img_name": "xmlab383/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10394
+  },
+  {
+    "img_id": 383,
+    "img_name": "xmlab383/source.jpg",
+    "question": "Is/Are there abnormalities in the patient's right lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10395
+  },
+  {
+    "img_id": 383,
+    "img_name": "xmlab383/source.jpg",
+    "question": "Is this image normal?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10396
+  },
+  {
+    "img_id": 383,
+    "img_name": "xmlab383/source.jpg",
+    "question": "Can pneumonia be observed on the lower right lung in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10397
+  },
+  {
+    "img_id": 391,
+    "img_name": "xmlab391/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Coronal Plane",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10404
+  },
+  {
+    "img_id": 391,
+    "img_name": "xmlab391/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10408
+  },
+  {
+    "img_id": 391,
+    "img_name": "xmlab391/source.jpg",
+    "question": "Does the lung look abnormal?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10410
+  },
+  {
+    "img_id": 391,
+    "img_name": "xmlab391/source.jpg",
+    "question": "Is the lung abnormal?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10411
+  },
+  {
+    "img_id": 391,
+    "img_name": "xmlab391/source.jpg",
+    "question": "Can cardiomegaly be observed in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "X-Ray",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10412
+  },
+  {
+    "img_id": 394,
+    "img_name": "xmlab394/source.jpg",
+    "question": "Is this sagittal plane?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10419
+  },
+  {
+    "img_id": 394,
+    "img_name": "xmlab394/source.jpg",
+    "question": "Does the picture contain eyes?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10424
+  },
+  {
+    "img_id": 394,
+    "img_name": "xmlab394/source.jpg",
+    "question": "Does the trachea exist in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10425
+  },
+  {
+    "img_id": 394,
+    "img_name": "xmlab394/source.jpg",
+    "question": "Do any of the organs in the picture belong to the circulatory system?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "circulatory system"
+    ],
+    "qid": 10432
+  },
+  {
+    "img_id": 394,
+    "img_name": "xmlab394/source.jpg",
+    "question": "Does the picture contain the organ that could be used for secreting enzymes?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "be used for",
+      "secrete enzymes"
+    ],
+    "qid": 10433
+  },
+  {
+    "img_id": 4,
+    "img_name": "xmlab4/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10437,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 4,
+    "img_name": "xmlab4/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10438,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 4,
+    "img_name": "xmlab4/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10439,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 404,
+    "img_name": "xmlab404/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10441
+  },
+  {
+    "img_id": 404,
+    "img_name": "xmlab404/source.jpg",
+    "question": "Is this a study of the neck?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10444
+  },
+  {
+    "img_id": 404,
+    "img_name": "xmlab404/source.jpg",
+    "question": "Does the trachea exist in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10445
+  },
+  {
+    "img_id": 404,
+    "img_name": "xmlab404/source.jpg",
+    "question": "Does the lung exist in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10446
+  },
+  {
+    "img_id": 404,
+    "img_name": "xmlab404/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of sensing light?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "effect",
+      "sense light"
+    ],
+    "qid": 10452
+  },
+  {
+    "img_id": 404,
+    "img_name": "xmlab404/source.jpg",
+    "question": "Do any of the organs in the picture belong to the circulatory system?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "circulatory system"
+    ],
+    "qid": 10453
+  },
+  {
+    "img_id": 408,
+    "img_name": "xmlab408/source.jpg",
+    "question": "Is this a CT scan?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10454
+  },
+  {
+    "img_id": 408,
+    "img_name": "xmlab408/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Transverse Plane",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10455
+  },
+  {
+    "img_id": 408,
+    "img_name": "xmlab408/source.jpg",
+    "question": "Is this a study of the neck?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10459
+  },
+  {
+    "img_id": 408,
+    "img_name": "xmlab408/source.jpg",
+    "question": "Is there small bowel in this image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10460
+  },
+  {
+    "img_id": 408,
+    "img_name": "xmlab408/source.jpg",
+    "question": "Does the trachea exist in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10461
+  },
+  {
+    "img_id": 408,
+    "img_name": "xmlab408/source.jpg",
+    "question": "Does the picture contain the organ that could be used for digesting food?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "be used for",
+      "digest food"
+    ],
+    "qid": 10468
+  },
+  {
+    "img_id": 408,
+    "img_name": "xmlab408/source.jpg",
+    "question": "Does the picture contain the organ that could be used for absorbing nutrients?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "be used for",
+      "absorb nutrients"
+    ],
+    "qid": 10469
+  },
+  {
+    "img_id": 418,
+    "img_name": "xmlab418/source.jpg",
+    "question": "Is this an MRI scan?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10470
+  },
+  {
+    "img_id": 418,
+    "img_name": "xmlab418/source.jpg",
+    "question": "Is this sagittal plane?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10471
+  },
+  {
+    "img_id": 418,
+    "img_name": "xmlab418/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10473
+  },
+  {
+    "img_id": 418,
+    "img_name": "xmlab418/source.jpg",
+    "question": "Does the ears exist in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10474
+  },
+  {
+    "img_id": 418,
+    "img_name": "xmlab418/source.jpg",
+    "question": "Does the rectum appear in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10475
+  },
+  {
+    "img_id": 418,
+    "img_name": "xmlab418/source.jpg",
+    "question": "Does the picture contain the organ that could receive sound?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "could",
+      "receive sound"
+    ],
+    "qid": 10478
+  },
+  {
+    "img_id": 418,
+    "img_name": "xmlab418/source.jpg",
+    "question": "Are there organs in the picture that can promote blood flow?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Face",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "can",
+      "promote blood flow"
+    ],
+    "qid": 10479
+  },
+  {
+    "img_id": 42,
+    "img_name": "xmlab42/source.jpg",
+    "question": "Does the picture contain brian?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10485
+  },
+  {
+    "img_id": 42,
+    "img_name": "xmlab42/source.jpg",
+    "question": "Does the brain look abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10487
+  },
+  {
+    "img_id": 420,
+    "img_name": "xmlab420/source.jpg",
+    "question": "Is this a CT?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10489
+  },
+  {
+    "img_id": 420,
+    "img_name": "xmlab420/source.jpg",
+    "question": "Is this sagittal plane?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10490
+  },
+  {
+    "img_id": 420,
+    "img_name": "xmlab420/source.jpg",
+    "question": "Is this a study of the neck?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10494
+  },
+  {
+    "img_id": 420,
+    "img_name": "xmlab420/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10495
+  },
+  {
+    "img_id": 420,
+    "img_name": "xmlab420/source.jpg",
+    "question": "Does the temporal lobe appear in this image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10496
+  },
+  {
+    "img_id": 420,
+    "img_name": "xmlab420/source.jpg",
+    "question": "Do any of the organs in the picture belong to the respiratory system?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "respiratory system"
+    ],
+    "qid": 10501
+  },
+  {
+    "img_id": 420,
+    "img_name": "xmlab420/source.jpg",
+    "question": "Are there organs in the picture that can deliver food?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "can",
+      "deliver food"
+    ],
+    "qid": 10502
+  },
+  {
+    "img_id": 424,
+    "img_name": "xmlab424/source.jpg",
+    "question": "Is this a CT scan?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10503
+  },
+  {
+    "img_id": 424,
+    "img_name": "xmlab424/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Transverse Plane",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10504
+  },
+  {
+    "img_id": 424,
+    "img_name": "xmlab424/source.jpg",
+    "question": "Does the picture contain spinal cord?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10508
+  },
+  {
+    "img_id": 424,
+    "img_name": "xmlab424/source.jpg",
+    "question": "Is there small bowel in this image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10509
+  },
+  {
+    "img_id": 424,
+    "img_name": "xmlab424/source.jpg",
+    "question": "Does the picture contain the organ that could be used for discharging waste?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "be used for",
+      "discharge waste"
+    ],
+    "qid": 10514
+  },
+  {
+    "img_id": 424,
+    "img_name": "xmlab424/source.jpg",
+    "question": "Are there organs in the picture that can discharge waste?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "can",
+      "discharge waste"
+    ],
+    "qid": 10515
+  },
+  {
+    "img_id": 426,
+    "img_name": "xmlab426/source.jpg",
+    "question": "Is this a CT scan?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10516
+  },
+  {
+    "img_id": 426,
+    "img_name": "xmlab426/source.jpg",
+    "question": "Do the organs in the image exist in the neck?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10518
+  },
+  {
+    "img_id": 426,
+    "img_name": "xmlab426/source.jpg",
+    "question": "Does the spinal cord appear in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10520
+  },
+  {
+    "img_id": 426,
+    "img_name": "xmlab426/source.jpg",
+    "question": "Is there an esophagus in this image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10521
+  },
+  {
+    "img_id": 426,
+    "img_name": "xmlab426/source.jpg",
+    "question": "Does the humerus head exist in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10522
+  },
+  {
+    "img_id": 426,
+    "img_name": "xmlab426/source.jpg",
+    "question": "Are there organs in the picture that can discharge waste?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "can",
+      "discharge waste"
+    ],
+    "qid": 10527
+  },
+  {
+    "img_id": 426,
+    "img_name": "xmlab426/source.jpg",
+    "question": "Do any of the organs in the picture belong to the lymphatic system?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Neck",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "lymphatic system"
+    ],
+    "qid": 10528
+  },
+  {
+    "img_id": 448,
+    "img_name": "xmlab448/source.jpg",
+    "question": "Is this a transverse plane?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10531
+  },
+  {
+    "img_id": 448,
+    "img_name": "xmlab448/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10534
+  },
+  {
+    "img_id": 455,
+    "img_name": "xmlab455/source.jpg",
+    "question": "Is this a CT scan?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10537
+  },
+  {
+    "img_id": 455,
+    "img_name": "xmlab455/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Transverse Plane",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10539
+  },
+  {
+    "img_id": 455,
+    "img_name": "xmlab455/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10540
+  },
+  {
+    "img_id": 455,
+    "img_name": "xmlab455/source.jpg",
+    "question": "Can brain edema be observed in the picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10543
+  },
+  {
+    "img_id": 457,
+    "img_name": "xmlab457/source.jpg",
+    "question": "Is this sagittal plane?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10547
+  },
+  {
+    "img_id": 458,
+    "img_name": "xmlab458/source.jpg",
+    "question": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
+    "answer": "MRI",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10554
+  },
+  {
+    "img_id": 458,
+    "img_name": "xmlab458/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Transverse Plane",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10556
+  },
+  {
+    "img_id": 458,
+    "img_name": "xmlab458/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10559
+  },
+  {
+    "img_id": 46,
+    "img_name": "xmlab46/source.jpg",
+    "question": "Does the picture contain brian?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10568
+  },
+  {
+    "img_id": 46,
+    "img_name": "xmlab46/source.jpg",
+    "question": "Is the brain healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10570
+  },
+  {
+    "img_id": 460,
+    "img_name": "xmlab460/source.jpg",
+    "question": "Is this image taken via MRI?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10572
+  },
+  {
+    "img_id": 460,
+    "img_name": "xmlab460/source.jpg",
+    "question": "Is this an MRI image with T1 weighted?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10573
+  },
+  {
+    "img_id": 460,
+    "img_name": "xmlab460/source.jpg",
+    "question": "Is this a coronal plane?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10574
+  },
+  {
+    "img_id": 460,
+    "img_name": "xmlab460/source.jpg",
+    "question": "Which lobe is abnormal,left or right?",
+    "answer": "Right",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10576
+  },
+  {
+    "img_id": 460,
+    "img_name": "xmlab460/source.jpg",
+    "question": "Is the abnormality hyperdense or hypodense?",
+    "answer": "Hyperdense",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Color",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10579
+  },
+  {
+    "img_id": 462,
+    "img_name": "xmlab462/source.jpg",
+    "question": "Is this a T1 weighted or T2 weighted MRI image?",
+    "answer": "T2",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10583
+  },
+  {
+    "img_id": 462,
+    "img_name": "xmlab462/source.jpg",
+    "question": "Is this a coronal plane?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10584
+  },
+  {
+    "img_id": 462,
+    "img_name": "xmlab462/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10587
+  },
+  {
+    "img_id": 465,
+    "img_name": "xmlab465/source.jpg",
+    "question": "Is this image taken via X-Ray?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10591
+  },
+  {
+    "img_id": 465,
+    "img_name": "xmlab465/source.jpg",
+    "question": "Is this a T1 weighted or T2 weighted MRI image?",
+    "answer": "T2",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10592
+  },
+  {
+    "img_id": 465,
+    "img_name": "xmlab465/source.jpg",
+    "question": "Is/Are there abnormalities in the patient's left brain lobe?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10597
+  },
+  {
+    "img_id": 476,
+    "img_name": "xmlab476/source.jpg",
+    "question": "Is this an MRI image with T1 weighted?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10601
+  },
+  {
+    "img_id": 476,
+    "img_name": "xmlab476/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Transverse Plane",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10602
+  },
+  {
+    "img_id": 476,
+    "img_name": "xmlab476/source.jpg",
+    "question": "Which lobe is abnormal,left or right?",
+    "answer": "Left",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10604
+  },
+  {
+    "img_id": 476,
+    "img_name": "xmlab476/source.jpg",
+    "question": "Is this a study of the neck?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10605
+  },
+  {
+    "img_id": 476,
+    "img_name": "xmlab476/source.jpg",
+    "question": "Is/Are there abnormalities in the patient's left brain lobe?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10606
+  },
+  {
+    "img_id": 478,
+    "img_name": "xmlab478/source.jpg",
+    "question": "Is this a T1 weighted or T2 weighted MRI image?",
+    "answer": "T1",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10610
+  },
+  {
+    "img_id": 478,
+    "img_name": "xmlab478/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10611
+  },
+  {
+    "img_id": 478,
+    "img_name": "xmlab478/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10614
+  },
+  {
+    "img_id": 482,
+    "img_name": "xmlab482/source.jpg",
+    "question": "Is this image taken via X-Ray?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10618
+  },
+  {
+    "img_id": 482,
+    "img_name": "xmlab482/source.jpg",
+    "question": "Is this a T1 weighted or T2 weighted MRI image?",
+    "answer": "T1",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10619
+  },
+  {
+    "img_id": 482,
+    "img_name": "xmlab482/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10620
+  },
+  {
+    "img_id": 482,
+    "img_name": "xmlab482/source.jpg",
+    "question": "Which hemisphere is abnormal,left or right?",
+    "answer": "Right",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10622
+  },
+  {
+    "img_id": 488,
+    "img_name": "xmlab488/source.jpg",
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "answer": "T1",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10627
+  },
+  {
+    "img_id": 488,
+    "img_name": "xmlab488/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10629
+  },
+  {
+    "img_id": 488,
+    "img_name": "xmlab488/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10631
+  },
+  {
+    "img_id": 499,
+    "img_name": "xmlab499/source.jpg",
+    "question": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
+    "answer": "MRI",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10636
+  },
+  {
+    "img_id": 499,
+    "img_name": "xmlab499/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Transverse Plane",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10638
+  },
+  {
+    "img_id": 499,
+    "img_name": "xmlab499/source.jpg",
+    "question": "Is this a study of the pelvic cavity?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10641
+  },
+  {
+    "img_id": 499,
+    "img_name": "xmlab499/source.jpg",
+    "question": "Is the brain abnormal?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10642
+  },
+  {
+    "img_id": 503,
+    "img_name": "xmlab503/source.jpg",
+    "question": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
+    "answer": "MRI",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10644
+  },
+  {
+    "img_id": 503,
+    "img_name": "xmlab503/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10647
+  },
+  {
+    "img_id": 503,
+    "img_name": "xmlab503/source.jpg",
+    "question": "Which hemisphere is abnormal,left or right?",
+    "answer": "Left",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10648
+  },
+  {
+    "img_id": 503,
+    "img_name": "xmlab503/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10649
+  },
+  {
+    "img_id": 503,
+    "img_name": "xmlab503/source.jpg",
+    "question": "Is there a brain tumor?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10650
+  },
+  {
+    "img_id": 505,
+    "img_name": "xmlab505/source.jpg",
+    "question": "Is this an MRI image with T2 weighted?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10654
+  },
+  {
+    "img_id": 505,
+    "img_name": "xmlab505/source.jpg",
+    "question": "Is this a transverse section?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10655
+  },
+  {
+    "img_id": 505,
+    "img_name": "xmlab505/source.jpg",
+    "question": "Which lobe is abnormal,left or right?",
+    "answer": "Right",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10657
+  },
+  {
+    "img_id": 505,
+    "img_name": "xmlab505/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10658
+  },
+  {
+    "img_id": 505,
+    "img_name": "xmlab505/source.jpg",
+    "question": "Is/Are there abnormalities in the patient's right brain lobe?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10659
+  },
+  {
+    "img_id": 510,
+    "img_name": "xmlab510/source.jpg",
+    "question": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
+    "answer": "MRI",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10662
+  },
+  {
+    "img_id": 510,
+    "img_name": "xmlab510/source.jpg",
+    "question": "Is this an MRI image with T1 weighted?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10663
+  },
+  {
+    "img_id": 510,
+    "img_name": "xmlab510/source.jpg",
+    "question": "Is this a transverse plane?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10664
+  },
+  {
+    "img_id": 510,
+    "img_name": "xmlab510/source.jpg",
+    "question": "Is the brain healthy?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10667
+  },
+  {
+    "img_id": 517,
+    "img_name": "xmlab517/source.jpg",
+    "question": "Is this a transverse section?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10671
+  },
+  {
+    "img_id": 517,
+    "img_name": "xmlab517/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10672
+  },
+  {
+    "img_id": 517,
+    "img_name": "xmlab517/source.jpg",
+    "question": "Which hemisphere is abnormal,left or right?",
+    "answer": "Right",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10673
+  },
+  {
+    "img_id": 517,
+    "img_name": "xmlab517/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10674
+  },
+  {
+    "img_id": 517,
+    "img_name": "xmlab517/source.jpg",
+    "question": "Can brain edema be observed in the picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10675
+  },
+  {
+    "img_id": 518,
+    "img_name": "xmlab518/source.jpg",
+    "question": "Is this an MRI?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10677
+  },
+  {
+    "img_id": 518,
+    "img_name": "xmlab518/source.jpg",
+    "question": "Is this an MRI image with T1 weighted?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10678
+  },
+  {
+    "img_id": 522,
+    "img_name": "xmlab522/source.jpg",
+    "question": "Is this a CT?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10686
+  },
+  {
+    "img_id": 522,
+    "img_name": "xmlab522/source.jpg",
+    "question": "Is this an MRI image with T2 weighted?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10687
+  },
+  {
+    "img_id": 522,
+    "img_name": "xmlab522/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10689
+  },
+  {
+    "img_id": 522,
+    "img_name": "xmlab522/source.jpg",
+    "question": "Which hemisphere is abnormal,left or right?",
+    "answer": "Right",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10690
+  },
+  {
+    "img_id": 522,
+    "img_name": "xmlab522/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10691
+  },
+  {
+    "img_id": 522,
+    "img_name": "xmlab522/source.jpg",
+    "question": "Does the patient have brain tumor?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10692
+  },
+  {
+    "img_id": 522,
+    "img_name": "xmlab522/source.jpg",
+    "question": "Is brain tumor white or gray relative to other tissues?",
+    "answer": "White",
+    "q_lang": "en",
+    "location": "Brain_Tissue",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Color",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10693
+  },
+  {
+    "img_id": 536,
+    "img_name": "xmlab536/source.jpg",
+    "question": "Are/Is there kidneys in the picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10698
+  },
+  {
+    "img_id": 536,
+    "img_name": "xmlab536/source.jpg",
+    "question": "Does the temporal lobe appear in this image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10699
+  },
+  {
+    "img_id": 536,
+    "img_name": "xmlab536/source.jpg",
+    "question": "Which is the biggest in this image,spleen,left kidney or liver?",
+    "answer": "Liver",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10700
+  },
+  {
+    "img_id": 536,
+    "img_name": "xmlab536/source.jpg",
+    "question": "Does the picture contain the organ that could be used for discharging waste?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "be used for",
+      "discharge waste"
+    ],
+    "qid": 10705
+  },
+  {
+    "img_id": 536,
+    "img_name": "xmlab536/source.jpg",
+    "question": "Are there organs in the picture that can promote blood flow?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "can",
+      "promote blood flow"
+    ],
+    "qid": 10706
+  },
+  {
+    "img_id": 540,
+    "img_name": "xmlab540/source.jpg",
+    "question": "Is this a study of the abdomen?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10709
+  },
+  {
+    "img_id": 540,
+    "img_name": "xmlab540/source.jpg",
+    "question": "Does the stomach appear in the image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10710
+  },
+  {
+    "img_id": 540,
+    "img_name": "xmlab540/source.jpg",
+    "question": "Does the larynx appear in the image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10711
+  },
+  {
+    "img_id": 540,
+    "img_name": "xmlab540/source.jpg",
+    "question": "Do any of the organs in the picture belong to the circulatory system?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "circulatory system"
+    ],
+    "qid": 10714
+  },
+  {
+    "img_id": 540,
+    "img_name": "xmlab540/source.jpg",
+    "question": "Do any of the organs in the picture belong to the urinary system?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "urinary system"
+    ],
+    "qid": 10715
+  },
+  {
+    "img_id": 544,
+    "img_name": "xmlab544/source.jpg",
+    "question": "Is this a coronal plane?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10717
+  },
+  {
+    "img_id": 544,
+    "img_name": "xmlab544/source.jpg",
+    "question": "Is this a study of the abdomen?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10719
+  },
+  {
+    "img_id": 544,
+    "img_name": "xmlab544/source.jpg",
+    "question": "Does the larynx appear in the image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10720
+  },
+  {
+    "img_id": 544,
+    "img_name": "xmlab544/source.jpg",
+    "question": "Does the picture contain bladder?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10721
+  },
+  {
+    "img_id": 544,
+    "img_name": "xmlab544/source.jpg",
+    "question": "Which is bigger in this image,colon or liver?",
+    "answer": "Liver",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10722
+  },
+  {
+    "img_id": 544,
+    "img_name": "xmlab544/source.jpg",
+    "question": "Are there organs in the picture that can secrete enzymes?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "can",
+      "secrete enzymes"
+    ],
+    "qid": 10726
+  },
+  {
+    "img_id": 544,
+    "img_name": "xmlab544/source.jpg",
+    "question": "Do any of the organs in the picture belong to the nervous system?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "nervous system"
+    ],
+    "qid": 10727
+  },
+  {
+    "img_id": 546,
+    "img_name": "xmlab546/source.jpg",
+    "question": "Where is the spleen in this image, right or lower right?",
+    "answer": "Lower Right",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10729
+  },
+  {
+    "img_id": 546,
+    "img_name": "xmlab546/source.jpg",
+    "question": "Does the picture contain duodenum?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10731
+  },
+  {
+    "img_id": 546,
+    "img_name": "xmlab546/source.jpg",
+    "question": "Does the picture contain colon?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10732
+  },
+  {
+    "img_id": 546,
+    "img_name": "xmlab546/source.jpg",
+    "question": "Which is smaller in this image,liver or left lung?",
+    "answer": "Left Lung",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10733
+  },
+  {
+    "img_id": 546,
+    "img_name": "xmlab546/source.jpg",
+    "question": "Does the picture contain the organ that could promote blood flow?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "could",
+      "promote blood flow"
+    ],
+    "qid": 10738
+  },
+  {
+    "img_id": 546,
+    "img_name": "xmlab546/source.jpg",
+    "question": "Do any of the organs in the picture belong to the digestive system?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "digestive system"
+    ],
+    "qid": 10739
+  },
+  {
+    "img_id": 552,
+    "img_name": "xmlab552/source.jpg",
+    "question": "Does the picture contain colon?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10743
+  },
+  {
+    "img_id": 552,
+    "img_name": "xmlab552/source.jpg",
+    "question": "Are/Is there kidneys in the picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10744
+  },
+  {
+    "img_id": 552,
+    "img_name": "xmlab552/source.jpg",
+    "question": "Which is bigger in this image, small bowel or kidney?",
+    "answer": "Small bowel",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10745
+  },
+  {
+    "img_id": 552,
+    "img_name": "xmlab552/source.jpg",
+    "question": "Are there organs in the picture that can detoxicate?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "can",
+      "detoxicate"
+    ],
+    "qid": 10749
+  },
+  {
+    "img_id": 552,
+    "img_name": "xmlab552/source.jpg",
+    "question": "Does the picture contain the tissue that is related with remembering things?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "could",
+      "remember things"
+    ],
+    "qid": 10750
+  },
+  {
+    "img_id": 555,
+    "img_name": "xmlab555/source.jpg",
+    "question": "Do the organs in the image exist in the abdomen?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10751
+  },
+  {
+    "img_id": 555,
+    "img_name": "xmlab555/source.jpg",
+    "question": "Where is the left kidney in this image, right or lower right?",
+    "answer": "Lower Right",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10752
+  },
+  {
+    "img_id": 555,
+    "img_name": "xmlab555/source.jpg",
+    "question": "Does the temporal lobe appear in this image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10754
+  },
+  {
+    "img_id": 555,
+    "img_name": "xmlab555/source.jpg",
+    "question": "Does the ears exist in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10755
+  },
+  {
+    "img_id": 555,
+    "img_name": "xmlab555/source.jpg",
+    "question": "Which is smaller in this image,kidney or spinal cord?",
+    "answer": "Spinal cord",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10756
+  },
+  {
+    "img_id": 555,
+    "img_name": "xmlab555/source.jpg",
+    "question": "Do any of the organs in the picture belong to the lymphatic system?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "lymphatic system"
+    ],
+    "qid": 10760
+  },
+  {
+    "img_id": 555,
+    "img_name": "xmlab555/source.jpg",
+    "question": "Does the picture contain the organ that could be used for discharging waste?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "be used for",
+      "discharge waste"
+    ],
+    "qid": 10761
+  },
+  {
+    "img_id": 563,
+    "img_name": "xmlab563/source.jpg",
+    "question": "Does the picture contain colon?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10764
+  },
+  {
+    "img_id": 563,
+    "img_name": "xmlab563/source.jpg",
+    "question": "Does the picture contain bladder?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10765
+  },
+  {
+    "img_id": 563,
+    "img_name": "xmlab563/source.jpg",
+    "question": "Which is smaller in this image,liver or right kidney?",
+    "answer": "Right Kidney",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10766
+  },
+  {
+    "img_id": 563,
+    "img_name": "xmlab563/source.jpg",
+    "question": "Do any of the organs in the picture belong to the urinary system?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "urinary system"
+    ],
+    "qid": 10771
+  },
+  {
+    "img_id": 563,
+    "img_name": "xmlab563/source.jpg",
+    "question": "Does the picture contain the organ that could receive sound?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "could",
+      "receive sound"
+    ],
+    "qid": 10772
+  },
+  {
+    "img_id": 566,
+    "img_name": "xmlab566/source.jpg",
+    "question": "Does the picture contain bladder?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10776
+  },
+  {
+    "img_id": 566,
+    "img_name": "xmlab566/source.jpg",
+    "question": "Are/Is there kidneys in the picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10777
+  },
+  {
+    "img_id": 566,
+    "img_name": "xmlab566/source.jpg",
+    "question": "Which is bigger in this image,small bowel or liver?",
+    "answer": "Small Bowel",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10778
+  },
+  {
+    "img_id": 566,
+    "img_name": "xmlab566/source.jpg",
+    "question": "Are there organs in the picture that can discharge waste?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "can",
+      "discharge waste"
+    ],
+    "qid": 10782
+  },
+  {
+    "img_id": 566,
+    "img_name": "xmlab566/source.jpg",
+    "question": "Are there any organs used for breathing in this image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "be used for",
+      "breathe"
+    ],
+    "qid": 10783
+  },
+  {
+    "img_id": 569,
+    "img_name": "xmlab569/source.jpg",
+    "question": "Do the organs in the image exist in the chest?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10785
+  },
+  {
+    "img_id": 569,
+    "img_name": "xmlab569/source.jpg",
+    "question": "Where is the spleen in this image, right or lower right?",
+    "answer": "Right",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10786
+  },
+  {
+    "img_id": 569,
+    "img_name": "xmlab569/source.jpg",
+    "question": "Does the lung exist in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10788
+  },
+  {
+    "img_id": 569,
+    "img_name": "xmlab569/source.jpg",
+    "question": "Does the picture contain spinal cord?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10789
+  },
+  {
+    "img_id": 569,
+    "img_name": "xmlab569/source.jpg",
+    "question": "Which is smaller in this image,spleen or right kidney?",
+    "answer": "Right Kidney",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10790
+  },
+  {
+    "img_id": 569,
+    "img_name": "xmlab569/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of detoxicating?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "effect",
+      "detoxicate"
+    ],
+    "qid": 10794
+  },
+  {
+    "img_id": 569,
+    "img_name": "xmlab569/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of discharging waste?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Abdomen",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "effect",
+      "discharge waste"
+    ],
+    "qid": 10795
+  },
+  {
+    "img_id": 587,
+    "img_name": "xmlab587/source.jpg",
+    "question": "Is this image taken via X-Ray?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_mediastinal",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10796
+  },
+  {
+    "img_id": 587,
+    "img_name": "xmlab587/source.jpg",
+    "question": "Does the trachea exist in this picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_mediastinal",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10799
+  },
+  {
+    "img_id": 587,
+    "img_name": "xmlab587/source.jpg",
+    "question": "Are/Is there kidneys in the picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_mediastinal",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10800
+  },
+  {
+    "img_id": 587,
+    "img_name": "xmlab587/source.jpg",
+    "question": "Which is bigger in this image, heart or right lung?",
+    "answer": "Right lung",
+    "q_lang": "en",
+    "location": "Chest_mediastinal",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10801
+  },
+  {
+    "img_id": 587,
+    "img_name": "xmlab587/source.jpg",
+    "question": "Does the picture contain the tissue that is related with remembering things?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_mediastinal",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "could",
+      "remember things"
+    ],
+    "qid": 10804
+  },
+  {
+    "img_id": 587,
+    "img_name": "xmlab587/source.jpg",
+    "question": "Does the picture contain the organ that could receive sound?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_mediastinal",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "could",
+      "receive sound"
+    ],
+    "qid": 10805
+  },
+  {
+    "img_id": 592,
+    "img_name": "xmlab592/source.jpg",
+    "question": "Is this sagittal plane?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Plane",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10806
+  },
+  {
+    "img_id": 592,
+    "img_name": "xmlab592/source.jpg",
+    "question": "Is there an esophagus in this image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10807
+  },
+  {
+    "img_id": 592,
+    "img_name": "xmlab592/source.jpg",
+    "question": "Does the picture contain mandible?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10808
+  },
+  {
+    "img_id": 592,
+    "img_name": "xmlab592/source.jpg",
+    "question": "Do any of the organs in the picture belong to the respiratory system?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "respiratory system"
+    ],
+    "qid": 10810
+  },
+  {
+    "img_id": 592,
+    "img_name": "xmlab592/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of digesting food?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "effect",
+      "digest food"
+    ],
+    "qid": 10811
+  },
+  {
+    "img_id": 597,
+    "img_name": "xmlab597/source.jpg",
+    "question": "Is this an MRI scan?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Modality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10812
+  },
+  {
+    "img_id": 597,
+    "img_name": "xmlab597/source.jpg",
+    "question": "Is there an esophagus in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10814
+  },
+  {
+    "img_id": 597,
+    "img_name": "xmlab597/source.jpg",
+    "question": "Does the picture contain the organ that could be used for digesting food?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "be used for",
+      "digest food"
+    ],
+    "qid": 10817
+  },
+  {
+    "img_id": 597,
+    "img_name": "xmlab597/source.jpg",
+    "question": "Do any of the organs in the picture belong to the circulatory system?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Chest_lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "circulatory system"
+    ],
+    "qid": 10818
+  },
+  {
+    "img_id": 609,
+    "img_name": "xmlab609/source.jpg",
+    "question": "Does the larynx appear in the image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10821
+  },
+  {
+    "img_id": 609,
+    "img_name": "xmlab609/source.jpg",
+    "question": "Does the picture contain bladder?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10822
+  },
+  {
+    "img_id": 609,
+    "img_name": "xmlab609/source.jpg",
+    "question": "Which is bigger in this image, rectum or small bowel?",
+    "answer": "Small Bowel",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10824
+  },
+  {
+    "img_id": 61,
+    "img_name": "xmlab61/source.jpg",
+    "question": "Does the picture contain brian?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Brain",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10833
+  },
+  {
+    "img_id": 61,
+    "img_name": "xmlab61/source.jpg",
+    "question": "Is the brain healthy?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Brain",
+    "modality": "MRI",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Abnormality",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10835
+  },
+  {
+    "img_id": 613,
+    "img_name": "xmlab613/source.jpg",
+    "question": "Do the organs in the image exist in the pelvic cavity?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10837
+  },
+  {
+    "img_id": 613,
+    "img_name": "xmlab613/source.jpg",
+    "question": "Is this a study of the pelvic cavity?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10838
+  },
+  {
+    "img_id": 613,
+    "img_name": "xmlab613/source.jpg",
+    "question": "Are/Is there kidneys in the picture?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10839
+  },
+  {
+    "img_id": 613,
+    "img_name": "xmlab613/source.jpg",
+    "question": "Is there femoral head in this picture?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10840
+  },
+  {
+    "img_id": 613,
+    "img_name": "xmlab613/source.jpg",
+    "question": "Which is the biggest in this image, bladder, small bowel or rectum?",
+    "answer": "Bladder",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10841
+  },
+  {
+    "img_id": 613,
+    "img_name": "xmlab613/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of digesting food?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "effect",
+      "digest food"
+    ],
+    "qid": 10845
+  },
+  {
+    "img_id": 613,
+    "img_name": "xmlab613/source.jpg",
+    "question": "Does the picture contain the organ that could receive sound?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "could",
+      "receive sound"
+    ],
+    "qid": 10846
+  },
+  {
+    "img_id": 624,
+    "img_name": "xmlab624/source.jpg",
+    "question": "Does the bladder appear in this image?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10850
+  },
+  {
+    "img_id": 624,
+    "img_name": "xmlab624/source.jpg",
+    "question": "Does the colon appear in the image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10851
+  },
+  {
+    "img_id": 624,
+    "img_name": "xmlab624/source.jpg",
+    "question": "Which is smaller in this image, colon or small bowel?",
+    "answer": "Colon",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10852
+  },
+  {
+    "img_id": 624,
+    "img_name": "xmlab624/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of storing urine?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "effect",
+      "store urine"
+    ],
+    "qid": 10854
+  },
+  {
+    "img_id": 625,
+    "img_name": "xmlab625/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10855
+  },
+  {
+    "img_id": 625,
+    "img_name": "xmlab625/source.jpg",
+    "question": "Is this a study of the abdomen?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10856
+  },
+  {
+    "img_id": 625,
+    "img_name": "xmlab625/source.jpg",
+    "question": "Is there small bowel in this image?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10857
+  },
+  {
+    "img_id": 625,
+    "img_name": "xmlab625/source.jpg",
+    "question": "Do any of the organs in the picture belong to the urinary system?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "urinary system"
+    ],
+    "qid": 10860
+  },
+  {
+    "img_id": 636,
+    "img_name": "xmlab636/source.jpg",
+    "question": "Do the organs in the image exist in the pelvic cavity?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10862
+  },
+  {
+    "img_id": 636,
+    "img_name": "xmlab636/source.jpg",
+    "question": "Does the picture contain spinal cord?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10863
+  },
+  {
+    "img_id": 636,
+    "img_name": "xmlab636/source.jpg",
+    "question": "Do any of the organs in the picture belong to the digestive system?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "digestive system"
+    ],
+    "qid": 10864
+  },
+  {
+    "img_id": 639,
+    "img_name": "xmlab639/source.jpg",
+    "question": "Do the organs in the image exist in the chest?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Position",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10865
+  },
+  {
+    "img_id": 639,
+    "img_name": "xmlab639/source.jpg",
+    "question": "Is this a study of the pelvic cavity?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Organ",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10866
+  },
+  {
+    "img_id": 639,
+    "img_name": "xmlab639/source.jpg",
+    "question": "Do any of the organs in the picture belong to the digestive system?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "belong to",
+      "digestive system"
+    ],
+    "qid": 10868
+  },
+  {
+    "img_id": 639,
+    "img_name": "xmlab639/source.jpg",
+    "question": "Does the picture contain the organ that could be used for digesting food?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Pelvic Cavity",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "kvqa",
+    "content_type": "KG",
+    "triple": [
+      "vhead",
+      "be used for",
+      "digest food"
+    ],
+    "qid": 10869
+  },
+  {
+    "img_id": 84,
+    "img_name": "xmlab84/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10874,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 84,
+    "img_name": "xmlab84/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10875,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 84,
+    "img_name": "xmlab84/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10876,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 84,
+    "img_name": "xmlab84/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10877,
+    "content_type": "Abnormality"
+  },
+  {
+    "img_id": 84,
+    "img_name": "xmlab84/source.jpg",
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "answer": "Lung",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "content_type": "Size",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10878
+  },
+  {
+    "img_id": 92,
+    "img_name": "xmlab92/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10883,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 92,
+    "img_name": "xmlab92/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10884,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 92,
+    "img_name": "xmlab92/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10885,
+    "content_type": "Organ"
+  },
+  {
+    "img_id": 92,
+    "img_name": "xmlab92/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "Yes",
+    "q_lang": "en",
+    "location": "Lung",
+    "modality": "CT",
+    "answer_type": "CLOSED",
+    "base_type": "vqa",
+    "triple": [
+      "vhead",
+      "_",
+      "_"
+    ],
+    "qid": 10887,
+    "content_type": "Abnormality"
+  }
+]
