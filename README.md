@@ -1,6 +1,6 @@
-# CS769 Advanced NLP Project : ViLT
+# CS769 Advanced NLP Project ViLT 2.0: Parameter Efficient Fine Tuned ViLT for Biomedical VQA
 
-Code for the ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision paper and CS769 Project.
+Code for the ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision paper and CS769 Project ViLT 2.0: Parameter Efficient Fine Tuned ViLT for Biomedical VQA.
 
 ## Install
 ```bash
