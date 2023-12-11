@@ -34,6 +34,30 @@ DATALOADER:0 TEST RESULTS
 --------------------------------------------------------------------------------
 INFO - ViLT - Completed after 0:01:31
 ```
+
+## Evaluate NLVR2 with Adapter
+```bash
+python run.py with data_root=<ARROW_ROOT> num_gpus=<NUM_GPUS> num_nodes=<NUM_NODES> adapter=True reduction=<REDUCTION> per_gpu_batchsize=<BS_FITS_YOUR_GPU> task_finetune_nlvr2_randaug test_only=True precision=32 load_path="<YOUR_WEIGHT_ROOT>/vilt_nlvr2.ckpt"
+
+ex)
+python run.py with data_root=/data2/dsets/dataset num_gpus=8 num_nodes=1 adapter=True reduction=2 per_gpu_batchsize=16 task_finetune_nlvr2_randaug test_only=True precision=32 load_path="weights/vilt_nlvr2.ckpt"
+
+output >
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'nlvr2/dev/accuracy': tensor(0.7530, device='cuda:0'),
+ 'nlvr2/dev/accuracy_epoch': tensor(0.7497, device='cuda:0'),
+ 'nlvr2/dev/loss': tensor(0.5809, device='cuda:0'),
+ 'nlvr2/dev/loss_epoch': tensor(0.6270, device='cuda:0'),
+ 'nlvr2/test/accuracy': tensor(0.7937, device='cuda:0'),
+ 'nlvr2/test/accuracy_epoch': tensor(0.7556, device='cuda:0'),
+ 'nlvr2/test/loss': tensor(0.5210, device='cuda:0'),
+ 'nlvr2/test/loss_epoch': tensor(0.6095, device='cuda:0'),
+ 'val/the_metric': tensor(0.7556, device='cuda:0')}
+--------------------------------------------------------------------------------
+INFO - ViLT - Completed after 0:01:05
+```
+
 # Train & Evaluate Bio Medical Datasets
 Run all commands mentioned below from the main project folder. 
 

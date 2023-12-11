@@ -22,6 +22,17 @@ ex)
 python run.py with data_root=/data2/dsets/dataset num_gpus=8 num_nodes=1 task_finetune_nlvr2_randaug per_gpu_batchsize=32 load_path="weights/vilt_200k_mlm_itm.ckpt"
 ```
 
+## Finetune on NLVR2 with Adapter
+```bash
+export MASTER_ADDR=$DIST_0_IP
+export MASTER_PORT=$DIST_0_PORT
+export NODE_RANK=$DIST_RANK
+python run.py with data_root=<ARROW_ROOT> num_gpus=<NUM_GPUS> num_nodes=<NUM_NODES> adapter=True reduction=<REDUCTION> task_finetune_nlvr2_randaug per_gpu_batchsize=<BS_FITS_YOUR_GPU> load_path="<YOUR_WEIGHT_ROOT>/vilt_200k_mlm_itm.ckpt"
+
+ex)
+python run.py with data_root=/data2/dsets/dataset num_gpus=8 num_nodes=1 adapter=True reduction=2 task_finetune_nlvr2_randaug per_gpu_batchsize=32 load_path="weights/vilt_200k_mlm_itm.ckpt"
+```
+
 ## Finetune on VQAv2
 ```bash
 export MASTER_ADDR=$DIST_0_IP
